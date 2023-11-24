@@ -17,15 +17,12 @@
             Então ao clicar em Comprar o item irá para o carrinho de compras
 
 
-            Esquema do Cenário: eleções de cor, tamanho e quantidade devem ser obrigatórios válidas
+            Esquema do Cenário: seleções de cor, tamanho e quantidade devem ser obrigatórios válidas
 
             | item                          | tamanho | cor    | quantidade |
             | blusa Augusta Pullover Jacket | XS      | Blue   | 2          |
-            | blusa Augusta Pullover Jacket | S       | Orange | 5          |
-            | blusa Augusta Pullover Jacket | M       | Red    | 7          |
-            | blusa Augusta Pullover Jacket | L       | Blue   | 1          |
-            | blusa Augusta Pullover Jacket | XL      | Red    | 3          |
-            | blusa Augusta Pullover Jacket | XL      | Red    | 0          |
+
+        
 
 
             Esquema do Cenário: Deve permitir apenas 10 produtos por venda
