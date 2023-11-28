@@ -27,5 +27,5 @@
 
             | usuario            | senha     | Mensagem                   |
             | teste1@ebac.com.br | 258665    | Usuário ou senha inválidos |
-            |                    | Aio/@*142 | Usuário ou senha inválidos |
-            | teste@teste.com.br |           | Usuário ou senha inválidos |
+            | ""                 | Aio/@*142 | Usuário ou senha inválidos |
+            | teste@teste.com.br | ""        | Usuário ou senha inválidos |
