@@ -8,13 +8,15 @@
 
             Contexto: Dado que eu acesso a página de autenticação da plataforma da EBAC-SHOP
 
-            Cenário: Ao inserir dados válidos deve ser direcionado para a tela de checkout
+            Esquema do Cenário: Autenticação plataforma Ebac-Shop Válida
 
             Quando quando eu digitar <usuario>
             E <senha>
-            Então deve dar a <Mensagem> de inválidos
+            Então será feito o <direcionamento> para a tela
 
-            Esquema do Cenário: Autenticação plataforma Ebac-Shop Válida
+
+           
+            Exemplos: 
 
             | usuario                | senha     | direcionamento |
             | teste_as@teste.com.br  | 123142    | Tela checkout  |
@@ -24,6 +26,12 @@
 
 
             Esquema do Cenário: Autenticação plataforma Ebac-Shop Inválida
+
+            Quando quando eu digitar <usuario>
+            E <senha>
+            Então deve dar a <Mensagem> de inválidos
+
+            Exemplos: 
 
             | usuario            | senha     | Mensagem                   |
             | teste1@ebac.com.br | 258665    | Usuário ou senha inválidos |

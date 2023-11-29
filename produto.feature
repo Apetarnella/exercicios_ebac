@@ -8,20 +8,22 @@
 
             Contexto: Dado que eu acesse a página do site EBAC-SHOP
 
-            Cenário: Seleções de cor, tamanho e quantidade devem ser obrigatórios Válidos, e deve permitir até 10 produtos por venda
+            Esquema do Cenário: Seleções de cor, tamanho e quantidade devem ser obrigatórios Válidos, e deve permitir até 10 produtos por venda
 
             Quando quando eu escolher o <item>, <tamanho>, <cor>, <quantidade>
-            Então ao clicar em Comprar o item irá para o carrinho de compras
+            Então ao clicar em Comprar, dará a mensagem <mensagem>
 
 
-            Esquema do Cenário: seleções de cor, tamanho e quantidade devem ser obrigatórios válidas
+            Exemplos:
 
-            | item                          | tamanho | cor    | quantidade |
-            | blusa Augusta Pullover Jacket | XS      | Blue   | 2          |
-            | blusa Augusta Pullover Jacket | S       | Orange | 10         |
-            | blusa Augusta Pullover Jacket | M       | Red    | 9          |
-            | blusa Augusta Pullover Jacket | L       | Orange | 1          |
-            | blusa Augusta Pullover Jacket | XL      | Blue   | 11         |
+            | item                          | tamanho | cor    | quantidade | Mensagem                                 |
+            | blusa Augusta Pullover Jacket | XS      | Blue   | 2          | Seu item foi adicionado ao carrinho      |
+            | blusa Augusta Pullover Jacket | S       | Orange | 10         | Seu item foi adicionado ao carrinho      |
+            | blusa Augusta Pullover Jacket | M       | Red    | 9          | Seu item foi adicionado ao carrinho      |
+            | blusa Augusta Pullover Jacket | L       | Orange | 1          | Seu item foi adicionado ao carrinho      |
+            | blusa Augusta Pullover Jacket | XL      | Blue   | 8          | Seu item foi adicionado ao carrinho      |
+            | blusa Augusta Pullover Jacket | XL      | Blue   | 11         | É permitido comprar até 10 itens por vez |
+
 
 
 
